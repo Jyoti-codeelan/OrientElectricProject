@@ -1,0 +1,5 @@
+[0615/130224.334:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0615/130224.404:ERROR:exception_snapshot_win.cc(98)] thread ID 3800 not found in process
+[0615/130224.816:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\Kamal\AppData\Local\Temp\scoped_dir7036_746517577\Crashpad: The system cannot find the file specified. (0x2)
+[0630/194442.848:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0707/114855.513:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports

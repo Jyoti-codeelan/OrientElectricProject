@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+         <listener class-name="com.qa.orient.listeners.TestJiraListener"/>  
+ 	 	<listener class-name="com.qa.orient.listeners.TestAllureListener" />
+ 	
+ 
+ 		<listener class-name="com.qa.orient.listeners.ExtentReportListener" />
+	  	<listener class-name="com.qa.orient.listeners.TesultsListener" />
+	
+	</listeners>
+	
+	
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="com.qa.orient.basetest.BaseTest"/>
+       <class name="com.qa.orient.TestPages.IdeatorPageTest"/>
+       <class name="com.qa.orient.TestPages.Level1PageTest"/>
+      
+       <class name="com.qa.orient.TestPages.BusinessFinancePageTest"/>
+       <class name="com.qa.orient.TestPages.Level2PageTest"/>
+       <class name="com.qa.orient.TestPages.Level3PageTest"/>
+       <class name="com.qa.orient.TestPages.Level4PageTest"/>
+   
+ 
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

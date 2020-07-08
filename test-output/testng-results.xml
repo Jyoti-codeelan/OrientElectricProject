@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="450538" started-at="2020-07-08T05:34:22Z" finished-at="2020-07-08T05:41:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="450538" started-at="2020-07-08T05:34:22Z" finished-at="2020-07-08T05:41:53Z">
+      <class name="com.qa.orient.TestPages.Level1PageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orient.TestPages.Level1PageTest@6025e1b6]" name="setUp" is-config="true" duration-ms="13968" started-at="2020-07-08T05:36:09Z" finished-at="2020-07-08T05:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="level1Login()[pri:0, instance:com.qa.orient.TestPages.Level1PageTest@6025e1b6]" name="level1Login" is-config="true" duration-ms="5069" started-at="2020-07-08T05:36:23Z" finished-at="2020-07-08T05:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- level1Login -->
+        <test-method status="PASS" signature="getApproveIdeaOnLevel1Page()[pri:2, instance:com.qa.orient.TestPages.Level1PageTest@6025e1b6]" name="getApproveIdeaOnLevel1Page" duration-ms="11527" started-at="2020-07-08T05:36:29Z" finished-at="2020-07-08T05:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApproveIdeaOnLevel1Page -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.orient.TestPages.Level1PageTest@6025e1b6]" name="quit" is-config="true" duration-ms="11630" started-at="2020-07-08T05:36:42Z" finished-at="2020-07-08T05:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.orient.TestPages.Level1PageTest -->
+      <class name="com.qa.orient.TestPages.Level2PageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orient.TestPages.Level2PageTest@2d1ef81a]" name="setUp" is-config="true" duration-ms="10271" started-at="2020-07-08T05:40:07Z" finished-at="2020-07-08T05:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="level2PageLogin()[pri:0, instance:com.qa.orient.TestPages.Level2PageTest@2d1ef81a]" name="level2PageLogin" is-config="true" duration-ms="4477" started-at="2020-07-08T05:40:17Z" finished-at="2020-07-08T05:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- level2PageLogin -->
+        <test-method status="PASS" signature="getApproveLevel2PageTest()[pri:5, instance:com.qa.orient.TestPages.Level2PageTest@2d1ef81a]" name="getApproveLevel2PageTest" duration-ms="5891" started-at="2020-07-08T05:40:22Z" finished-at="2020-07-08T05:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApproveLevel2PageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.orient.TestPages.Level2PageTest@2d1ef81a]" name="quit" is-config="true" duration-ms="11658" started-at="2020-07-08T05:40:27Z" finished-at="2020-07-08T05:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.orient.TestPages.Level2PageTest -->
+      <class name="com.qa.orient.TestPages.Level4PageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orient.TestPages.Level4PageTest@327514f]" name="setUp" is-config="true" duration-ms="8677" started-at="2020-07-08T05:41:13Z" finished-at="2020-07-08T05:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="level4PageLogin()[pri:0, instance:com.qa.orient.TestPages.Level4PageTest@327514f]" name="level4PageLogin" is-config="true" duration-ms="3919" started-at="2020-07-08T05:41:21Z" finished-at="2020-07-08T05:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- level4PageLogin -->
+        <test-method status="PASS" signature="getApproveLevel4PageTest()[pri:7, instance:com.qa.orient.TestPages.Level4PageTest@327514f]" name="getApproveLevel4PageTest" duration-ms="15191" started-at="2020-07-08T05:41:26Z" finished-at="2020-07-08T05:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApproveLevel4PageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.orient.TestPages.Level4PageTest@327514f]" name="quit" is-config="true" duration-ms="11723" started-at="2020-07-08T05:41:41Z" finished-at="2020-07-08T05:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.orient.TestPages.Level4PageTest -->
+      <class name="com.qa.orient.TestPages.IdeatorPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orient.TestPages.IdeatorPageTest@40a4337a]" name="setUp" is-config="true" duration-ms="75237" started-at="2020-07-08T05:34:23Z" finished-at="2020-07-08T05:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ideatorLogin()[pri:0, instance:com.qa.orient.TestPages.IdeatorPageTest@40a4337a]" name="ideatorLogin" is-config="true" duration-ms="9323" started-at="2020-07-08T05:35:40Z" finished-at="2020-07-08T05:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ideatorLogin -->
+        <test-method status="PASS" signature="getCreateIdeaTest()[pri:1, instance:com.qa.orient.TestPages.IdeatorPageTest@40a4337a]" name="getCreateIdeaTest" duration-ms="7250" started-at="2020-07-08T05:35:49Z" finished-at="2020-07-08T05:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreateIdeaTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.orient.TestPages.IdeatorPageTest@40a4337a]" name="quit" is-config="true" duration-ms="11610" started-at="2020-07-08T05:35:57Z" finished-at="2020-07-08T05:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orient.TestPages.IdeatorPageTest@40a4337a]" name="setUp" is-config="true" duration-ms="9834" started-at="2020-07-08T05:36:53Z" finished-at="2020-07-08T05:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ideatorLogin()[pri:0, instance:com.qa.orient.TestPages.IdeatorPageTest@40a4337a]" name="ideatorLogin" is-config="true" duration-ms="4718" started-at="2020-07-08T05:37:03Z" finished-at="2020-07-08T05:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ideatorLogin -->
+        <test-method status="PASS" signature="getConvertMainIdeaTest()[pri:3, instance:com.qa.orient.TestPages.IdeatorPageTest@40a4337a]" name="getConvertMainIdeaTest" duration-ms="99870" started-at="2020-07-08T05:37:08Z" finished-at="2020-07-08T05:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConvertMainIdeaTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.orient.TestPages.IdeatorPageTest@40a4337a]" name="quit" is-config="true" duration-ms="21295" started-at="2020-07-08T05:38:48Z" finished-at="2020-07-08T05:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.orient.TestPages.IdeatorPageTest -->
+      <class name="com.qa.orient.TestPages.Level3PageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orient.TestPages.Level3PageTest@4c402120]" name="setUp" is-config="true" duration-ms="10788" started-at="2020-07-08T05:40:39Z" finished-at="2020-07-08T05:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="level3PageLogin()[pri:0, instance:com.qa.orient.TestPages.Level3PageTest@4c402120]" name="level3PageLogin" is-config="true" duration-ms="4060" started-at="2020-07-08T05:40:50Z" finished-at="2020-07-08T05:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- level3PageLogin -->
+        <test-method status="PASS" signature="getApproveLevel3PageTest()[pri:6, instance:com.qa.orient.TestPages.Level3PageTest@4c402120]" name="getApproveLevel3PageTest" duration-ms="7209" started-at="2020-07-08T05:40:54Z" finished-at="2020-07-08T05:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApproveLevel3PageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.orient.TestPages.Level3PageTest@4c402120]" name="quit" is-config="true" duration-ms="11115" started-at="2020-07-08T05:41:02Z" finished-at="2020-07-08T05:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.orient.TestPages.Level3PageTest -->
+      <class name="com.qa.orient.TestPages.BusinessFinancePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.orient.TestPages.BusinessFinancePageTest@22ff4249]" name="setUp" is-config="true" duration-ms="28030" started-at="2020-07-08T05:39:10Z" finished-at="2020-07-08T05:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BusinessFinancePageLogin()[pri:0, instance:com.qa.orient.TestPages.BusinessFinancePageTest@22ff4249]" name="BusinessFinancePageLogin" is-config="true" duration-ms="5491" started-at="2020-07-08T05:39:38Z" finished-at="2020-07-08T05:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessFinancePageLogin -->
+        <test-method status="PASS" signature="getApproveIdeaOnBFPageTest()[pri:4, instance:com.qa.orient.TestPages.BusinessFinancePageTest@22ff4249]" name="getApproveIdeaOnBFPageTest" duration-ms="10168" started-at="2020-07-08T05:39:44Z" finished-at="2020-07-08T05:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApproveIdeaOnBFPageTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.orient.TestPages.BusinessFinancePageTest@22ff4249]" name="quit" is-config="true" duration-ms="11023" started-at="2020-07-08T05:39:56Z" finished-at="2020-07-08T05:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.orient.TestPages.BusinessFinancePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

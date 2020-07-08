@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="409.048" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\All_Selenium_Projects\OrientElectricProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\All_Selenium_Projects\OrientElectricProject"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kamal\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\dev\tools\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;D:\Git\bin;C:\dev\tools\apache-maven-3.6.3\bin;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files\PowerShell\7\;C:\Users\Kamal\scoop\shims;C:\Python\Scripts\;C:\Python\;."/>
+    <property name="maven.conf" value="C:\dev\tools\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="C:\dev\tools\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Kamal"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Kamal"/>
+    <property name="java.class.path" value="C:\dev\tools\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\dev\tools\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="getCreateIdeaTest" classname="com.qa.orient.TestPages.IdeatorPageTest" time="37.416">
+    <failure message="Cannot locate element with text: Process&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DELL&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Process
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL', ip: '192.168.0.106', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+	at com.qa.orient.TestPages.IdeatorPageTest.getCreateIdeaTest(IdeatorPageTest.java:37)
+</failure>
+    <system-out><![CDATA[I am in onStart method Test
+Test Suite started!
+06-15-2020 09:20:59 BasePage.java INFO  [main] base.BasePage 71 - properties intilizes.......
+06-15-2020 09:20:59 BasePage.java INFO  [main] base.BasePage 75 - read prop file
+06-15-2020 09:20:59 BasePage.java INFO  [main] base.BasePage 38 - driver intialize..........
+06-15-2020 09:21:00 BasePage.java INFO  [main] base.BasePage 45 - Lunch Chrome Browser...........
+06-15-2020 09:21:57 LoginPage.java INFO  [main] page.LoginPage 25 - Driver intilize..........
+06-15-2020 09:21:59 IdeatorPageTest.java INFO  [main] TestPages.IdeatorPageTest 23 - Enter Ideator Credentials......
+06-15-2020 09:21:59 LoginPage.java INFO  [main] page.LoginPage 35 - Enter Credentials..........
+credentials are : ideator ideabridge@123
+06-15-2020 09:22:08 LoginPage.java INFO  [main] page.LoginPage 39 - Click on Loin Button.......
+I am in onTestStart method getCreateIdeaTest start
+getCreateIdeaTest started!
+06-15-2020 09:22:29 IdeatorPageTest.java INFO  [main] TestPages.IdeatorPageTest 35 - Create an idea on ideator page......
+I am in onTestFailure method getCreateIdeaTest failed
+Screenshot captured for test case:getCreateIdeaTest
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Kamal\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 22677
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 15, 2020 9:21:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="getApproveIdeaOnLevel1Page" classname="com.qa.orient.TestPages.Level1PageTest" time="78.121">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@title,&apos;Approve the Idea for Detailing&apos;)] (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@title,'Approve the Idea for Detailing')] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.qa.orient.TestPages.Level1PageTest.getApproveIdeaOnLevel1Page(Level1PageTest.java:35)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@title,'Approve the Idea for Detailing')]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL', ip: '192.168.0.106', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c0e975ffa076b66b4568accaa7cbb3aa
+*** Element info: {Using=xpath, value=//button[contains(@title,'Approve the Idea for Detailing')]}
+	at com.qa.orient.TestPages.Level1PageTest.getApproveIdeaOnLevel1Page(Level1PageTest.java:35)
+</failure>
+    <system-out><![CDATA[getCreateIdeaTest failed!
+06-15-2020 09:23:08 BasePage.java INFO  [main] base.BasePage 71 - properties intilizes.......
+06-15-2020 09:23:08 BasePage.java INFO  [main] base.BasePage 75 - read prop file
+06-15-2020 09:23:08 BasePage.java INFO  [main] base.BasePage 38 - driver intialize..........
+06-15-2020 09:23:08 BasePage.java INFO  [main] base.BasePage 45 - Lunch Chrome Browser...........
+06-15-2020 09:23:49 LoginPage.java INFO  [main] page.LoginPage 25 - Driver intilize..........
+06-15-2020 09:23:49 Level1PageTest.java INFO  [main] TestPages.Level1PageTest 21 - Enter Level1 Credentials......
+06-15-2020 09:23:49 LoginPage.java INFO  [main] page.LoginPage 35 - Enter Credentials..........
+credentials are : level1 ideabridge@123
+06-15-2020 09:23:56 LoginPage.java INFO  [main] page.LoginPage 39 - Click on Loin Button.......
+I am in onTestStart method getApproveIdeaOnLevel1Page start
+getApproveIdeaOnLevel1Page started!
+06-15-2020 09:24:02 Level1PageTest.java INFO  [main] TestPages.Level1PageTest 34 - Idea Approve By Level1 ..........
+I am in onTestFailure method getApproveIdeaOnLevel1Page failed
+Screenshot captured for test case:getApproveIdeaOnLevel1Page
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Kamal\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 41650
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 15, 2020 9:23:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+  <testcase name="getConvertMainIdeaTest" classname="com.qa.orient.TestPages.IdeatorPageTest" time="76.573">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //input[contains(@value,&apos;Convert to Main Idea&apos;)] (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[contains(@value,'Convert to Main Idea')] (tried for 60 second(s) with 500 milliseconds interval)
+	at com.qa.orient.TestPages.IdeatorPageTest.getConvertMainIdeaTest(IdeatorPageTest.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@value,'Convert to Main Idea')]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL', ip: '192.168.0.106', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3975f2fda0a3b11758636cf4e39c1d6f
+*** Element info: {Using=xpath, value=//input[contains(@value,'Convert to Main Idea')]}
+	at com.qa.orient.TestPages.IdeatorPageTest.getConvertMainIdeaTest(IdeatorPageTest.java:43)
+</failure>
+    <system-out><![CDATA[getApproveIdeaOnLevel1Page failed!
+06-15-2020 09:25:20 BasePage.java INFO  [main] base.BasePage 71 - properties intilizes.......
+06-15-2020 09:25:21 BasePage.java INFO  [main] base.BasePage 75 - read prop file
+06-15-2020 09:25:21 BasePage.java INFO  [main] base.BasePage 38 - driver intialize..........
+06-15-2020 09:25:21 BasePage.java INFO  [main] base.BasePage 45 - Lunch Chrome Browser...........
+06-15-2020 09:26:02 LoginPage.java INFO  [main] page.LoginPage 25 - Driver intilize..........
+06-15-2020 09:26:02 IdeatorPageTest.java INFO  [main] TestPages.IdeatorPageTest 23 - Enter Ideator Credentials......
+06-15-2020 09:26:02 LoginPage.java INFO  [main] page.LoginPage 35 - Enter Credentials..........
+credentials are : ideator ideabridge@123
+06-15-2020 09:26:10 LoginPage.java INFO  [main] page.LoginPage 39 - Click on Loin Button.......
+I am in onTestStart method getConvertMainIdeaTest start
+getConvertMainIdeaTest started!
+I am in onTestFailure method getConvertMainIdeaTest failed
+Screenshot captured for test case:getConvertMainIdeaTest
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 83.0.4103.39 (since Chrome 83 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Kamal\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 24826
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 15, 2020 9:25:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+]]></system-err>
+  </testcase>
+</testsuite>

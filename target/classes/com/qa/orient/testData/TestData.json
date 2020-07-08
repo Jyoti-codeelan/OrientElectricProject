@@ -1,0 +1,26 @@
+{
+  
+  "HeadLessMood": "no",
+  
+  "BrowserName": "chrome",
+  
+  "URL": "https://uatim.hil.in/",
+   
+    
+  "UserName": {
+    "Moderator": "demo1",
+    "Business Finance": "demo2",
+    "Cross functional": "demo3",
+    "Innovation team": "demo4"
+    },
+
+ "Password": {
+    "password": "ideabridge@123"
+    },
+
+  "Dev URL": 
+  {
+   "url": "home"
+  }
+
+}

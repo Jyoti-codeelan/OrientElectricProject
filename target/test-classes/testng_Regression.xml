@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel execution Test Suite">
+
+<listeners>
+
+         <listener class-name="com.qa.orient.listeners.TestJiraListener"/>  
+ 		<listener class-name="com.qa.orient.listeners.ExtentReportListener" />
+	  	<listener class-name="com.qa.orient.listeners.TesultsListener" />
+	
+	</listeners>
+	
+	
+  <test thread-count="5" name="first Test">
+  <parameter name="browser"  value = "chrome" />
+    <classes>
+       <class name="com.qa.orient.basetest.BaseTest"/>
+       <class name="com.qa.orient.TestPages.IdeatorPageTest"/>
+       <class name="com.qa.orient.TestPages.Level1PageTest"/>
+      
+       <class name="com.qa.orient.TestPages.BusinessFinancePageTest"/>
+       <class name="com.qa.orient.TestPages.Level2PageTest"/>
+       <class name="com.qa.orient.TestPages.Level3PageTest"/>
+       <class name="com.qa.orient.TestPages.Level4PageTest"/>
+   
+ 
+      
+    </classes>
+    
+  </test> 
+  
+  
+  
+  <test thread-count="4" name="second Test">
+  <parameter name="browser"  value = "firefox" />
+    <classes>
+       <class name="com.qa.orient.basetest.BaseTest"/>
+    
+     
+       <class name="com.qa.orient.TestPages.Level2PageTest"/>
+       <class name="com.qa.orient.TestPages.Level3PageTest"/>
+  
+   
+      
+    </classes>
+     </test> 
+  <!-- Test -->
+</suite> <!-- Suite -->
